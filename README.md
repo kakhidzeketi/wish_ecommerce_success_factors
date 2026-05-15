@@ -26,6 +26,7 @@ The project focuses on identifying key factors influencing product performance a
 
 ### 1. Python – Data Cleaning & Exploration
 - Data cleaning
+- Duplicate value handling
 - Missing value handling
 - Exploratory analysis
 - Data consistency checks
