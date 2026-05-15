@@ -12,3 +12,61 @@ The main objective was to demonstrate end-to-end analytical workflow and practic
 - Power BI for data modeling, star schema development, and visualization
 
 The project focuses on identifying key factors influencing product performance and sales behavior in an e-commerce environment.
+
+## Tools & Technologies
+
+- Python
+- SQL
+- Power BI
+- Star Schema Modeling
+
+---
+
+## Project Workflow
+
+### 1. Python – Data Cleaning & Exploration
+- Data cleaning
+- Missing value handling
+- Exploratory analysis
+- Data consistency checks
+
+### 2. SQL – Analytical Queries & Transformation
+- Revenue analysis
+- Product performance analysis
+- Pricing segmentation
+- Ratings and review analysis
+- Merchant reputation analysis
+
+### 3. Power BI – Data Modeling & Visualization
+- Additional data transformation
+- Star schema creation
+- Dashboard development
+- KPI visualization
+- Interactive reporting
+
+---
+
+## Key Business Questions
+
+- Which products generate the highest revenue?
+- How do ratings influence sales?
+- Does shipping price affect product performance?
+- How does merchant reputation impact sales?
+- Which price ranges perform best?
+
+---
+
+## Repository Structure
+
+```text
+python/     -> Python notebooks
+sql/        -> SQL analytical queries
+powerbi/    -> Power BI dashboard files
+visuals/    -> Dashboard screenshots
+```
+
+---
+
+## Dataset
+
+Publicly available e-commerce dataset used for educational and portfolio purposes.
