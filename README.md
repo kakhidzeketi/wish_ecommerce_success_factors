@@ -11,6 +11,7 @@ The main objective was to demonstrate end-to-end analytical workflow and practic
 - SQL for analytical querying and transformation
 - Power BI for data modeling, star schema development, and visualization
 
+# Objective
 The project focuses on identifying key factors influencing product performance and sales behavior in an e-commerce environment.
 
 ## Tools & Technologies
@@ -71,3 +72,5 @@ visuals/    -> Dashboard screenshots
 ## Dataset
 
 Publicly available e-commerce dataset used for educational and portfolio purposes.
+
+ 
