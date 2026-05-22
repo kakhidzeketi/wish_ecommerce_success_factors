@@ -21,8 +21,6 @@ The project focuses on identifying key factors influencing product performance a
 - Power BI
 - Star Schema Modeling
 
----
-
 ## Project Workflow
 
 ### 1. Python – Data Cleaning & Exploration
@@ -46,8 +44,6 @@ The project focuses on identifying key factors influencing product performance a
 - KPI visualization
 - Interactive reporting
 
----
-
 ## Key Business Questions
 
 - Which products generate the highest revenue?
@@ -55,8 +51,6 @@ The project focuses on identifying key factors influencing product performance a
 - Does shipping price affect product performance?
 - How does merchant reputation impact sales?
 - Which price ranges perform best?
-
----
 
 ## Repository Structure
 
@@ -67,7 +61,6 @@ powerbi/    -> Power BI dashboard files
 visuals/    -> Dashboard screenshots
 ```
 
----
 
 ## Dataset
 
