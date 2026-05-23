@@ -87,3 +87,22 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 ![Rating Quantity Impact](visuals/RatingQuantity.png)
 
 *Figure: Scatter plot showcasing the positive correlation between customer review volume and units sold.*
+
+
+###  Product Rating vs. Sales Performance
+
+* **Insight:** Product ratings serve as a direct indicator of quality for potential buyers. The analysis shows that higher average product ratings have a significant positive impact on sales volume. There is a clear "trust threshold" where products with ratings above 4.0 stars experience a much higher conversion rate and sales velocity compared to those below this benchmark.
+* **Recommendation:** Wish should implement a search optimization algorithm that gives higher visibility (organic boost) to products maintaining a score above 4.0, while providing actionable performance dashboards for merchants whose products drop below this threshold to help them improve quality.
+
+![Product Rating Impact](visuals/ProductRating.png)
+*Figure: Visual analysis showing the distribution of units sold across different product rating tiers.*
+
+
+### Merchant Reputation & Platform Trust
+
+* **Insight:** Beyond the individual product, the overall reputation of the merchant plays a critical role in consumer decision-making. High merchant ratings strongly correlate with increased sales, proving that buyers look for established, reliable sellers to minimize purchase risk (e.g., shipping delays or wrong items).
+* **Recommendation:** To foster a higher-quality marketplace, Wish should introduce a "Top-Rated Merchant" badge or exclusive perks for sellers who maintain excellent ratings. This will incentivize merchants to optimize their customer service and fulfillment standards.
+
+![Merchant Rating Impact](visuals/merchant_rating_influence.png)
+*Figure: Impact of merchant reputation scores on overall store transaction volumes.*
+
