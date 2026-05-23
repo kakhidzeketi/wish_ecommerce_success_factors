@@ -67,3 +67,6 @@ visuals/    -> Dashboard screenshots
 Publicly available e-commerce dataset used for educational and portfolio purposes.
 
  
+## Business Insights And Reccomendations
+
+- Analysis of the top 10 products by units sold and revenue suggests that women's products are among the strongest drivers of sales performance.
