@@ -48,6 +48,17 @@ The goal of this project was to analyze factors influencing product sales perfor
 
 ---
 
+## Repository Structure
+
+```text
+python/     -> Python notebooks
+sql/        -> SQL analytical queries
+powerbi/    -> Power BI dashboard files
+visuals/    -> Dashboard screenshots
+```
+
+---
+
 ## Key Business Questions
 
 - Which products generate the highest revenue?
@@ -125,16 +136,6 @@ The goal of this project was to analyze factors influencing product sales perfor
 
 ---
 
-## Repository Structure
-
-```text
-python/     -> Python notebooks
-sql/        -> SQL analytical queries
-powerbi/    -> Power BI dashboard files
-visuals/    -> Dashboard screenshots
-```
-
----
 
 ## Dataset
 
