@@ -17,12 +17,21 @@ The goal of this project was to analyze factors influencing product sales perfor
 
 ---
 
+
+
+##  Dashboard Overview
+
+Below is the complete interactive Power BI dashboard designed to analyze the e-commerce performance drivers:
+
+![Wish Dashboard](visuals/WISH_dashboard.png)
+
+---
+
 ## Tools & Technologies
 
 - Python
 - SQL
 - Power BI
-- DAX
 - Star Schema Modeling
 
 ---
@@ -92,7 +101,7 @@ visuals/    -> Dashboard screenshots
 ---
 
 ### Product Ratings & Consumer Trust
-**Insight:** Products rated above 4.0 stars demonstrated noticeably stronger sales performance compared to lower-rated products.
+**Insight:** Products rated above 4.0 stars demonstrated stronger sales performance compared to lower-rated products.
 
 **Recommendation:** Prioritize high-rated products in search visibility and recommendation systems.
 
