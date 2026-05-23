@@ -84,4 +84,5 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 * **Recommendation:** To drive conversion rates for low-performing or new products, Wish should introduce post-purchase automated triggers (such as discount tokens or loyalty points) that incentivize customers to leave detailed reviews and upload photo/video feedback.
 
 ![Rating Quantity Impact](visuals/RatingQuantityImpact.png)
+
 *Figure: Scatter plot showcasing the positive correlation between customer review volume and units sold.*
