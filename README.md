@@ -69,8 +69,9 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
  
 ### Business Insights And Reccomendations
 
-- Analysis of the top 10 products by units sold and revenue suggests that women's products are among the strongest drivers of sales performance.
-
+## Top 10 Products
+* **Insight:** Analysis of the top 10 products by units sold and revenue suggests that women's products are among the strongest drivers of sales performance.
+* **Recommendation:** It will be good to concentrate marketing to women's products 
 
 ![Top 10 products by Sold Items](visuals/Top10ByItemsSold.png)
 
@@ -78,7 +79,7 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 ![Top 10 products by revenue](visuals/Top10ByRevenue.png) 
 
 
-###  The Power of Social Proof (Rating Quantity Impact)
+##  The Power of Social Proof (Rating Quantity Impact)
 
 * **Insight:** In e-commerce environments, customers rely heavily on reviews from previous buyers due to the inability to physically inspect products before purchase. The analysis clearly validates this behavioral trend, indicating that higher review counts are strongly associated with accelerated sales performance (`units_sold`).
 * **Recommendation:** To drive conversion rates for low-performing or new products, Wish should introduce post-purchase automated triggers (such as discount tokens or loyalty points) that incentivize customers to leave detailed reviews and upload photo/video feedback.
