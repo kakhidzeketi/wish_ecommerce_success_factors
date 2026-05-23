@@ -1,56 +1,129 @@
-# wish_ecommerce_success_factors
-End-to-end data analytics capstone project exploring e-commerce success factors through Python, SQL, and Power BI.
-
 # Wish E-commerce Success Factors Analysis
 
-This project was completed as a final capstone project for a data analytics course.
+End-to-end data analytics capstone project exploring key drivers of product performance in an e-commerce environment using Python, SQL, and Power BI.
 
-The main objective was to demonstrate end-to-end analytical workflow and practical usage of data analytics tools, including:
+---
 
-- Python for data cleaning and exploration
-- SQL for analytical querying and transformation
-- Power BI for data modeling, star schema development, and visualization
+## Project Objective
 
-# Objective
-The project focuses on identifying key factors influencing product performance and sales behavior in an e-commerce environment.
+The goal of this project was to analyze factors influencing product sales performance and demonstrate a complete analytics workflow including:
+
+- Data cleaning & exploration
+- Analytical querying
+- Data transformation
+- Data modeling
+- Dashboard development
+- Business insight generation
+
+---
 
 ## Tools & Technologies
 
 - Python
 - SQL
 - Power BI
+- DAX
 - Star Schema Modeling
 
-## Project Workflow
+---
 
-### 1. Python – Data Cleaning & Exploration
+## Workflow
+
+### Python
 - Data cleaning
-- Duplicate value handling
 - Missing value handling
 - Exploratory analysis
-- Data consistency checks
 
-### 2. SQL – Analytical Queries & Transformation
+### SQL
 - Revenue analysis
-- Product performance analysis
-- Pricing segmentation
-- Ratings and review analysis
-- Merchant reputation analysis
+- Product segmentation
+- Ratings & review analysis
+- Merchant performance analysis
 
-### 3. Power BI – Data Modeling & Visualization
-- Additional data transformation
+### Power BI
+- Data transformation
 - Star schema creation
 - Dashboard development
 - KPI visualization
-- Interactive reporting
+
+---
 
 ## Key Business Questions
 
 - Which products generate the highest revenue?
 - How do ratings influence sales?
-- Does shipping price affect product performance?
+- Does shipping price affect sales performance?
 - How does merchant reputation impact sales?
 - Which price ranges perform best?
+
+---
+
+## Key Insights & Recommendations
+
+### Top Performing Products
+**Insight:** Women's products consistently ranked among the highest-performing products by both revenue and units sold.
+
+**Recommendation:** Increase marketing focus and promotional visibility for high-performing women's product categories.
+
+![Top 10 products by Sold Items](visuals/Top10ByItemsSold.png)
+
+![Top 10 products by revenue](visuals/Top10ByRevenue.png)
+
+---
+
+### Customer Reviews & Sales Performance
+**Insight:** Products with higher review counts showed significantly stronger sales performance, highlighting the importance of social proof in e-commerce purchasing decisions.
+
+**Recommendation:** Encourage customers to leave reviews through post-purchase incentives such as loyalty points or discount offers.
+
+![Rating Quantity Impact](visuals/RatingQuantity.png)
+
+---
+
+### Product Ratings & Consumer Trust
+**Insight:** Products rated above 4.0 stars demonstrated noticeably stronger sales performance compared to lower-rated products.
+
+**Recommendation:** Prioritize high-rated products in search visibility and recommendation systems.
+
+![Product Rating Impact](visuals/ProductRating.png)
+
+---
+
+### Merchant Reputation
+**Insight:** Higher merchant ratings were strongly associated with increased sales, indicating that customers value seller reliability and trust.
+
+**Recommendation:** Introduce marketplace incentives or badges for top-rated merchants.
+
+![Merchant Rating Impact](visuals/merchant_rating_influence.png)
+
+---
+
+### Shipping Price Impact
+**Insight:** Shipping price showed only a weak relationship with sales volume, suggesting that small shipping cost differences do not strongly influence purchasing behavior.
+
+**Recommendation:** Focus marketing efforts on bundled shipping incentives and free shipping thresholds.
+
+![Shipping Price Impact](visuals/wish_shipping_price_impact.png)
+
+---
+
+### Price Range Distribution
+**Insight:** Most sales occurred within the \$0–\$10 price range, though this may partially reflect the platform's heavy concentration of low-priced listings.
+
+**Recommendation:** Expand product variety within the \$10–\$20 segment to improve average order value while maintaining affordability.
+
+![Price Sensitivity and Distribution](visuals/Price_sensitivity.png)
+
+![Price Distribution](visuals/price_distribution.png)
+
+---
+
+## Project Limitations
+
+- The dataset did not include historical time variables, limiting trend and sales velocity analysis.
+- Cost and profitability metrics were unavailable, restricting analysis to revenue and sales volume only.
+
+---
 
 ## Repository Structure
 
@@ -61,87 +134,8 @@ powerbi/    -> Power BI dashboard files
 visuals/    -> Dashboard screenshots
 ```
 
+---
 
 ## Dataset
 
 Publicly available e-commerce dataset used for educational and portfolio purposes.
-
- 
-## Business Insights And Reccomendations
-
-### Top 10 Products
-* **Insight:** Analysis of the top 10 products by units sold and revenue suggests that women's products are among the strongest drivers of sales performance.
-* **Recommendation:** It will be good to concentrate marketing to women's products 
-
-![Top 10 products by Sold Items](visuals/Top10ByItemsSold.png)
-
-
-![Top 10 products by revenue](visuals/Top10ByRevenue.png) 
-
-
-###  The Power of Social Proof (Rating Quantity Impact)
-
-* **Insight:** In e-commerce environments, customers rely heavily on reviews from previous buyers due to the inability to physically inspect products before purchase. The analysis clearly validates this behavioral trend, indicating that higher review counts are strongly associated with accelerated sales performance (`units_sold`).
-* **Recommendation:** To drive conversion rates for low-performing or new products, Wish should introduce post-purchase automated triggers (such as discount tokens or loyalty points) that incentivize customers to leave detailed reviews and upload photo/video feedback.
-
-![Rating Quantity Impact](visuals/RatingQuantity.png)
-
-*Figure: Scatter plot showcasing the positive correlation between customer review volume and units sold.*
-
-
-###  Product Rating vs. Sales Performance
-
-* **Insight:** Product ratings serve as a direct indicator of quality for potential buyers. The analysis shows that higher average product ratings have a significant positive impact on sales volume. There is a clear "trust threshold" where products with ratings above 4.0 stars experience a much higher conversion rate and sales velocity compared to those below this benchmark.
-* **Recommendation:** Wish should implement a search optimization algorithm that gives higher visibility (organic boost) to products maintaining a score above 4.0, while providing actionable performance dashboards for merchants whose products drop below this threshold to help them improve quality.
-
-![Product Rating Impact](visuals/ProductRating.png)
-
-*Figure: Visual analysis showing the distribution of units sold across different product rating tiers.*
-
-
-### Merchant Reputation & Platform Trust
-
-* **Insight:** Beyond the individual product, the overall reputation of the merchant plays a critical role in consumer decision-making. High merchant ratings strongly correlate with increased sales, proving that buyers look for established, reliable sellers to minimize purchase risk (e.g., shipping delays or wrong items).
-* **Recommendation:** To foster a higher-quality marketplace, Wish should introduce a "Top-Rated Merchant" badge or exclusive perks for sellers who maintain excellent ratings. This will incentivize merchants to optimize their customer service and fulfillment standards.
-
-![Merchant Rating Impact](visuals/merchant_rating_influence.png)
-
-*Figure: Impact of merchant reputation scores on overall store transaction volumes.*
-
-
-###  Shipping Price Elasticity & Consumer Behavior
-
-* **Insight:** Intuitively, one might expect higher shipping fees to severely negatively impact sales volume. However, the analysis reveals a surprisingly weak correlation between `shipping_option_price` and `units_sold`. In this e-commerce environment, variations in low-tier shipping costs do not drastically alter consumer purchasing decisions. This anomaly can be attributed to two potential underlying factors:
-    1. **Low Baseline Product Pricing:** Since product prices on the Wish platform are inherently low, a minor shipping cost additions do not push the total cart value beyond the consumer's psychological spending threshold.
-    2. **Platform Incentive Thresholds:** E-commerce platforms frequently offer bundled free shipping options once a minimum purchase threshold is met, which dilutes the visible impact of individual item shipping costs on historical sales data.
-* **Recommendation:** Since low-tier shipping price fluctuations do not hurt sales velocity, merchants can strategicially absorb small shipping variances into slightly higher base margins without risking conversion. For Wish, marketing campaigns should heavily lean into "Free Shipping on Orders Over $X" mechanics, as consumers are already primed to maximize value through bundling rather than obsessing over single-item shipping fees.
-
-![Shipping Price Impact](visuals/wish_shipping_price_impact.png)
-
-*Figure: Scatter plot illustrating the weak correlation and high dispersion between individual shipping prices and total units sold.*
-
-
-###  Price Sensitivity vs. Product Distribution
-
-* **Insight:** At first glance, transaction volume heavily favors the ultra-low-cost segment, with the **$0–$10 price range** driving the vast majority of total sales. However, cross-analyzing this with the platform's product inventory distribution reveals an important operational caveat: this sales dominance is primarily supply-driven. The dataset contains an overwhelming volume of listings concentrated strictly within the $0–$10 bracket, creating a supply-side skew. While consumer demand for low-priced items is clear, the sheer volume of choices available in this segment naturally funnels the majority of transactions here.
-* **Recommendation:** Wish should identify high-demand sub-categories within the **$10–$20 range** (which still shows healthy baseline purchase activity) and incentivize merchants to diversify their listings into this slightly higher tier. This strategy can help the platform escape the ultra-low-margin trap, increase average order value (AOV), and improve overall gross merchandise volume (GMV) without losing its competitive edge.
-
-![Price Sensitivity and Distribution](visuals/Price_sensitivity.png)
-
-![Price Sensitivity and Distribution](visuals/price_distribution.png)
-
-*Figures: Comparative view of sales volume trends alongside the platform's price point distribution.*
-
-
-
-##  Project Limitations & Constraints
-
-While the dataset provides valuable signals regarding product performance, several structural data constraints limit the depth of the strategic conclusions:
-
-### 1. Lack of Temporal Data (Time Variables)
-* **The Constraint:** The dataset lacks timestamps, historical sales tracking, or product listing creation dates (`created_at`). 
-* **The Analytical Impact:** It is impossible to calculate sales velocity (e.g., units sold per month). A product with 10,000 total units sold might appear to be a top performer, but this could simply be a cumulative effect of it being listed on the platform for several years. Conversely, a highly successful new product listed for only two weeks would appear low-performing due to low absolute volume. This introduces potential longevity bias into the performance rankings.
-
-### 2. Absence of Cost Data (COGS) & Profit Margin Metrics
-* **The Constraint:** The dataset metrics are limited to the consumer-facing selling price and shipping fees; it does not contain the merchant's acquisition cost or wholesale price (Cost of Goods Sold - COGS).
-* **The Analytical Impact:** The analysis is restricted entirely to top-line Revenue and Sales Volume. Without cost structures, it is impossible to evaluate actual profitability, net margins, or true merchant financial success. A high-revenue product might operate on razor-thin or negative margins, making it less viable for the business than a lower-volume, high-margin item.
