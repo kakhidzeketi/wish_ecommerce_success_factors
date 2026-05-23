@@ -70,5 +70,15 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 ## Business Insights And Reccomendations
 
 - Analysis of the top 10 products by units sold and revenue suggests that women's products are among the strongest drivers of sales performance.
+
+
 ![Top 10 products by Sold Items](visuals/Top10ByItemsSold.png)
+
+
 ![Top 10 products by revenue](visuals/Top10ByRevenue.png) 
+
+
+- In e-commerce environments, customers rely heavily on reviews from previous buyers due to the inability to physically inspect products before purchase. The analysis indicates that higher review counts are associated with stronger sales performance. 
+To drive conversion rates for low-performing or new products, Wish should introduce post-purchase automated triggers (such as discount tokens or loyalty points) that incentivize customers to leave detailed reviews and upload photo/video feedback.
+
+![Review quantity influence on purchasing](visuals/rating quantity.png) 
