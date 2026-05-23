@@ -32,7 +32,6 @@ Below is the complete interactive Power BI dashboard designed to analyze the e-c
 - Python
 - SQL
 - Power BI
-- Star Schema Modeling
 
 ---
 
