@@ -128,6 +128,20 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 
 ![Price Sensitivity and Distribution](visuals/Price_sensitivity.png)
 
-![Price Sensitivity and Distribution](visuals/Price_distribution.png)
+![Price Sensitivity and Distribution](visuals/price_distribution.png)
 
 *Figures: Comparative view of sales volume trends alongside the platform's price point distribution.*
+
+
+
+##  Project Limitations & Constraints
+
+While the dataset provides valuable signals regarding product performance, several structural data constraints limit the depth of the strategic conclusions:
+
+### 1. Lack of Temporal Data (Time Variables)
+* **The Constraint:** The dataset lacks timestamps, historical sales tracking, or product listing creation dates (`created_at`). 
+* **The Analytical Impact:** It is impossible to calculate sales velocity (e.g., units sold per month). A product with 10,000 total units sold might appear to be a top performer, but this could simply be a cumulative effect of it being listed on the platform for several years. Conversely, a highly successful new product listed for only two weeks would appear low-performing due to low absolute volume. This introduces potential longevity bias into the performance rankings.
+
+### 2. Absence of Cost Data (COGS) & Profit Margin Metrics
+* **The Constraint:** The dataset metrics are limited to the consumer-facing selling price and shipping fees; it does not contain the merchant's acquisition cost or wholesale price (Cost of Goods Sold - COGS).
+* **The Analytical Impact:** The analysis is restricted entirely to top-line Revenue and Sales Volume. Without cost structures, it is impossible to evaluate actual profitability, net margins, or true merchant financial success. A high-revenue product might operate on razor-thin or negative margins, making it less viable for the business than a lower-volume, high-margin item.
