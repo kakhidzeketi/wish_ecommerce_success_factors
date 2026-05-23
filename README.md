@@ -83,6 +83,6 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 * **Insight:** In e-commerce environments, customers rely heavily on reviews from previous buyers due to the inability to physically inspect products before purchase. The analysis clearly validates this behavioral trend, indicating that higher review counts are strongly associated with accelerated sales performance (`units_sold`).
 * **Recommendation:** To drive conversion rates for low-performing or new products, Wish should introduce post-purchase automated triggers (such as discount tokens or loyalty points) that incentivize customers to leave detailed reviews and upload photo/video feedback.
 
-![Rating Quantity Impact](visuals/RatingQuantityImpact.png)
+![Rating Quantity Impact](visuals/RatingQuantity.png)
 
 *Figure: Scatter plot showcasing the positive correlation between customer review volume and units sold.*
