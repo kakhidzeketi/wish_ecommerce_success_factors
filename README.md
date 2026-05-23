@@ -95,6 +95,7 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 * **Recommendation:** Wish should implement a search optimization algorithm that gives higher visibility (organic boost) to products maintaining a score above 4.0, while providing actionable performance dashboards for merchants whose products drop below this threshold to help them improve quality.
 
 ![Product Rating Impact](visuals/ProductRating.png)
+
 *Figure: Visual analysis showing the distribution of units sold across different product rating tiers.*
 
 
@@ -104,5 +105,18 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 * **Recommendation:** To foster a higher-quality marketplace, Wish should introduce a "Top-Rated Merchant" badge or exclusive perks for sellers who maintain excellent ratings. This will incentivize merchants to optimize their customer service and fulfillment standards.
 
 ![Merchant Rating Impact](visuals/merchant_rating_influence.png)
+
 *Figure: Impact of merchant reputation scores on overall store transaction volumes.*
+
+
+###  Shipping Price Elasticity & Consumer Behavior
+
+* **Insight:** Intuitively, one might expect higher shipping fees to severely negatively impact sales volume. However, the analysis reveals a surprisingly weak correlation between `shipping_option_price` and `units_sold`. In this e-commerce environment, variations in low-tier shipping costs do not drastically alter consumer purchasing decisions. This anomaly can be attributed to two potential underlying factors:
+    1. **Low Baseline Product Pricing:** Since product prices on the Wish platform are inherently low, a minor shipping cost additions do not push the total cart value beyond the consumer's psychological spending threshold.
+    2. **Platform Incentive Thresholds:** E-commerce platforms frequently offer bundled free shipping options once a minimum purchase threshold is met, which dilutes the visible impact of individual item shipping costs on historical sales data.
+* **Recommendation:** Since low-tier shipping price fluctuations do not hurt sales velocity, merchants can strategicially absorb small shipping variances into slightly higher base margins without risking conversion. For Wish, marketing campaigns should heavily lean into "Free Shipping on Orders Over $X" mechanics, as consumers are already primed to maximize value through bundling rather than obsessing over single-item shipping fees.
+
+![Shipping Price Impact](visuals/wish_shipping_price_impact.png)
+
+*Figure: Scatter plot illustrating the weak correlation and high dispersion between individual shipping prices and total units sold.*
 
