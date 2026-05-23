@@ -120,3 +120,14 @@ Publicly available e-commerce dataset used for educational and portfolio purpose
 
 *Figure: Scatter plot illustrating the weak correlation and high dispersion between individual shipping prices and total units sold.*
 
+
+###  Price Sensitivity vs. Product Distribution
+
+* **Insight:** At first glance, transaction volume heavily favors the ultra-low-cost segment, with the **$0–$10 price range** driving the vast majority of total sales. However, cross-analyzing this with the platform's product inventory distribution reveals an important operational caveat: this sales dominance is primarily supply-driven. The dataset contains an overwhelming volume of listings concentrated strictly within the $0–$10 bracket, creating a supply-side skew. While consumer demand for low-priced items is clear, the sheer volume of choices available in this segment naturally funnels the majority of transactions here.
+* **Recommendation:** Wish should identify high-demand sub-categories within the **$10–$20 range** (which still shows healthy baseline purchase activity) and incentivize merchants to diversify their listings into this slightly higher tier. This strategy can help the platform escape the ultra-low-margin trap, increase average order value (AOV), and improve overall gross merchandise volume (GMV) without losing its competitive edge.
+
+![Price Sensitivity and Distribution](visuals/Price_sensitivity.png)
+
+![Price Sensitivity and Distribution](visuals/Price_distribution.png)
+
+*Figures: Comparative view of sales volume trends alongside the platform's price point distribution.*
